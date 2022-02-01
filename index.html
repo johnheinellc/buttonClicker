@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+</head><link rel="stylesheet" href="style.css">
+<body id="container">
+    <div class="header flex">
+        <div class="title">
+            <h1 class="title">Dojonary</h1>
+        </div>
+        <div class="search">
+            <input type="search" name="Search" id="Search">
+        </div>
+        <div class="login">
+            <!-- btn -->
+            <button type="button" onclick="changeText(this)">Login</button>
+        </div>
+    </div>
+    <div class="body">
+        <div class="hero">
+            <div class="define flex">
+                <div class="word flex">
+                    <div class="center">
+                        <h2>ninja</h2>
+                        <p>noun</p>
+                        <p>plural: ninjas</p>
+                        <!-- btn -->
+                        <button type="submit" onclick="alert('Ninja was liked')">Like</button>
+                        <!-- counter  make counter box next-->
+                        <div id="like1"></div>
+                    </div>
+                <div class="definition">
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+                </div>
+            </div>
+            <div class="define flex">
+                <div class="word flex">
+                    <div class="center">
+                        <h2>ninja</h2>
+                         <p>noun</p>
+                        <p>plural: ninjas</p>
+                        <!-- btn -->
+                        <button type="submit" onclick="alert('Ninja was liked')">Like</button>
+                    </div>
+                <div class="definition">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="feature">
+            <h3>Dojonary is defined by <em>you</em></h3>
+            <!-- btn -->
+            <button type="button" onclick="disappear(this)">Add Definition</button>
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
